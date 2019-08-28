@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MultiSearchView</string>
+    <string name="search_title">biller search</string>
+    <string name="intro_message">intro message</string>
+    <string name="search_hint">search biller</string>
+</resources>
