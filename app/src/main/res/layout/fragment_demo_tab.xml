@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Senior Android Developer
+Career Overview
+Talented Android Developer with over five years of enterprise in software and mobile development and a broad range of industries including Mobile Payments, Live Chat, Restaurant Management, Map Tracking, Integrated Commerce and Banking. Women Tech Maker ambassador, currently aligned to WaveMoney (Digital Money
+Myanmar), one of the top100 Fintech companies in the world, leader of mobile financial services in Myanmar. Solid understanding of full mobile and Software Development Life Cycle (SDLC) including Waterfall and Agile methodologies. Well conversant with version control. Android experience and Expertise u-to IceCreamSandwich features including Clean Architecture Pattern, Android Jetpack Compose, LifeCycle, LiveData, Dependecy Injection, React Programming (Rxjava), Navigation, AndroidX, Permissions in M, and Material Design and actively working on Nougat features and enhancements after closely following Google I/O, DroidCon, DevSubmmit. Dedicated to continuously developing, implementing and adopting new technologies to maximize development efficiency and produce innovative applications.
+
+Areas of Expertise
+Mobile Technologies: Android -SDK, Clean Architecture Component (MVVM), LifeCycle, LiveData, Naviagtion, AndroidX, Dagger2, Coroutines, RxJava, Room, SQLite, App Bundle, Automated Testing
+"/>
+</LinearLayout>

@@ -7,6 +7,7 @@ import android.content.Context
 import android.content.Intent
 import android.view.Menu
 import androidx.appcompat.widget.SearchView
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -18,9 +19,27 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        setUpPage()
         if (getIntent() != null) {
             handleIntent(getIntent())
         }
+    }
+
+    fun setUpPage() {
+        setSupportActionBar(toolbar)
+
+        val adapter = ViewPagerAdapter(supportFragmentManager)
+        adapter.addFragment(DemoTab(), "Tab1")
+        adapter.addFragment(DemoTab(), "Tab2")
+        adapter.addFragment(DemoTab(), "Tab3")
+        adapter.addFragment(DemoTab(), "Tab4")
+        adapter.addFragment(DemoTab(), "Tab5")
+        adapter.addFragment(DemoTab(), "Tab6")
+        adapter.addFragment(DemoTab(), "Tab7")
+        adapter.addFragment(DemoTab(), "Tab8")
+        viewPager.adapter = adapter
+        viewPager.setPageTransformer(true, ZoomOutPageTransformer())
+        tabs.setupWithViewPager(viewPager)
     }
 
     override fun onNewIntent(intent: Intent) {
